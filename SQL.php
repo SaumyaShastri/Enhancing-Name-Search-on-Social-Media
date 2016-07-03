@@ -1,15 +1,15 @@
 <html>
 <body>
 <?php
-$text = "علي";
+
 echo "Hi there sql<br>";
-#if ($_SERVER["REQUEST_METHOD"] == "GET") {
-#  $text = $_GET['input'];
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+  $text = $_GET['input'];
   
 
-$servername = "localhost:8889";
-$username = "saumyashastri";
-$password = "tuktuk";
+$servername = "*******";
+$username = "******";
+$password = "*****";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password);

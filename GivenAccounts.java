@@ -15,10 +15,10 @@ public class GivenAccounts {
   public static void main(String[] a) {
 
     ConfigurationBuilder cb = new ConfigurationBuilder();
-    cb.setOAuthConsumerKey("rsSxx6wD2RR6C3eFUCyiAkHR4");
-    cb.setOAuthConsumerSecret("3g66sKqoEIHJNBtWebjwdYcLojSqkGhDGqpZjiv2Ymb4LZQD6D");
-    cb.setOAuthAccessToken("729914601849167872-mXRAIOB82Ejn28qHKbKltdrVRhc3M7b");
-    cb.setOAuthAccessTokenSecret("jxkOyjWliB3S8lJqpcJH72N3SyWpZMchfdiiUva2FEmXs");
+    cb.setOAuthConsumerKey("****");
+    cb.setOAuthConsumerSecret("****D");
+    cb.setOAuthAccessToken("****");
+    cb.setOAuthAccessTokenSecret("****");
 
     Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 

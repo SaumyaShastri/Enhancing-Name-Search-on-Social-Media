@@ -36,10 +36,10 @@ public class Tweet_Mapping  {
     	
         ConfigurationBuilder cb = new ConfigurationBuilder();
          cb.setDebugEnabled(true);
-         cb.setOAuthConsumerKey("rsSxx6wD2RR6C3eFUCyiAkHR4");
-         cb.setOAuthConsumerSecret("3g66sKqoEIHJNBtWebjwdYcLojSqkGhDGqpZjiv2Ymb4LZQD6D");
-         cb.setOAuthAccessToken("729914601849167872-mXRAIOB82Ejn28qHKbKltdrVRhc3M7b");
-         cb.setOAuthAccessTokenSecret("jxkOyjWliB3S8lJqpcJH72N3SyWpZMchfdiiUva2FEmXs");
+         cb.setOAuthConsumerKey("****");
+         cb.setOAuthConsumerSecret("****");
+         cb.setOAuthAccessToken("****");
+         cb.setOAuthAccessTokenSecret("****");
 
         final TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance(); // FileWriter file = new FileWriter(new File(Data_Twitter.txt));
         StatusListener listener = new StatusListener() {
